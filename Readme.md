@@ -1,4 +1,4 @@
-# Deferred feedback with CMB and explicit validation question behaviour
+# Deferred feedback with CBM and explicit validation question behaviour
 
 This Moodle question behaviour was created by Tim Hunt of the Open University.
 
