@@ -7,11 +7,5 @@ a 'Check' button that the student can click to get Moodle to check the syntax
 of their response. This question behaviour was created for use with STACK
 https://github.com/sangwinc/moodle-qtype_stack/
 
-To install using git, type this command in the root of your Moodle install
-    git clone git://github.com/timhunt/moodle-qbehaviour_dfcbmexplicitvaildate.git question/behaviour/dfcbmexplicitvaildate
-    echo question/behaviour/dfcbmexplicitvaildate >> .git/info/exclude
+To install, either [download the zip file](https://github.com/timhunt/moodle-qbehaviour_dfcbmexplicitvaildate/zipball/master), unzip it, and place it in the directory `moodle\question\behaviour\dfcbmexplicitvaildate`. (You will need to rename the directory `moodle-qbehaviour_dfcbmexplicitvaildate -> dfcbmexplicitvaildate`.) Alternatively, get the code using git by running the following command in the top level folder of your Moodle install: `git clone git://github.com/timhunt/moodle-qbehaviour_dfcbmexplicitvaildate.git question/behaviour/dfcbmexplicitvaildate`.
 
-Then download the zip from
-    https://github.com/timhunt/moodle-qbehaviour_dfcbmexplicitvaildate/zipball/master
-unzip it into the question/behaviour folder, and rename the new
-folder to dfcbmexplicitvaildate.
