@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Strings for component 'qbehaviour_dfcbmexplicitvaildate', language 'en'.
+ * Strings for component 'qbehaviour_dfcbmexplicitvaildate', language 'sv'.
  *
  * @package    qbehaviour_dfcbmexplicitvaildate
  * @copyright  2012 The Open University
