@@ -16,7 +16,7 @@
 
 /**
  * Version information for the deferred feedback with explicit validation
- * question behaviour.
+ * and certainty based marking question behaviour.
  *
  * @package    qbehaviour_dfcbmexplicitvaildate
  * @copyright  2012 The Open University
@@ -25,12 +25,12 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2013071100;
+$plugin->version   = 2014011500;
 $plugin->requires  = 2012120300;
 $plugin->cron      = 0;
 $plugin->component = 'qbehaviour_dfcbmexplicitvaildate';
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '3.1.1 for Moodle 2.4+';
+$plugin->release   = '3.2 for Moodle 2.4+';
 
 $plugin->dependencies = array(
     'qbehaviour_deferredcbm'      => 2012112900,
