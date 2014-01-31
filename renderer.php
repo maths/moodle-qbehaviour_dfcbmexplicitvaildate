@@ -26,6 +26,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+require_once(dirname(__FILE__) . '/../deferredcbm/renderer.php');
+
 
 /**
  * Renderer for outputting parts of a question using to the deferred
@@ -34,9 +36,9 @@ defined('MOODLE_INTERNAL') || die();
  * @copyright  2012 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class qbehaviour_dfcbmexplicitvaildate_renderer extends qbehaviour_renderer {
+class qbehaviour_dfcbmexplicitvaildate_renderer extends qbehaviour_deferredcbm_renderer {
 
     public function controls(question_attempt $qa, question_display_options $options) {
-        return $this->submit_button($qa, $options);
+        return parent::controls($qa, $options) . $this->submit_button($qa, $options);
     }
 }
