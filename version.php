@@ -18,9 +18,9 @@
  * Version information for the deferred feedback with explicit validation
  * and certainty based marking question behaviour.
  *
- * @package    qbehaviour_dfcbmexplicitvaildate
- * @copyright  2012 The Open University
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @package   qbehaviour_dfcbmexplicitvaildate
+ * @copyright 2012 The Open University
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
