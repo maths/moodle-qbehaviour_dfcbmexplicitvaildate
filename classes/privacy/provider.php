@@ -17,7 +17,7 @@
  * Privacy Subsystem implementation for qbehaviour_dfcbmexplicitvaildate.
  *
  * @package    qbehaviour_dfcbmexplicitvaildate
- * @copyright  2018 The Open University 
+ * @copyright  2018 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 namespace qbehaviour_dfcbmexplicitvaildate\privacy;
@@ -25,7 +25,7 @@ defined('MOODLE_INTERNAL') || die();
 /**
  * Privacy Subsystem for qbehaviour_dfcbmexplicitvaildate implementing null_provider.
  *
- * @copyright  2018 The Open University 
+ * @copyright  2018 The Open University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 class provider implements \core_privacy\local\metadata\null_provider {
