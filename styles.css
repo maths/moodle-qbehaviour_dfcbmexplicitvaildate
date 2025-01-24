@@ -1,0 +1,4 @@
+/* Hide the Check button */
+body.jsenabled .que.dfcbmexplicitvaildate button.submit {
+    display: none;
+}
